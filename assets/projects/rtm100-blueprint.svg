@@ -1,0 +1,652 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1638" height="1144" viewBox="22 22 1638 1144" xmlns:c2pa="http://c2pa.org/manifest">
+<defs>
+<pattern id="gridS" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M10 0H0V10" fill="none" stroke="#ffffff" stroke-opacity="0.055" stroke-width="0.5"/></pattern>
+<pattern id="gridL" width="50" height="50" patternUnits="userSpaceOnUse"><path d="M50 0H0V50" fill="none" stroke="#ffffff" stroke-opacity="0.11" stroke-width="0.6"/></pattern>
+<pattern id="hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="6" stroke="#EAF3FF" stroke-opacity="0.55" stroke-width="0.6"/></pattern>
+<pattern id="hatch2" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><line x1="0" y1="0" x2="0" y2="6" stroke="#EAF3FF" stroke-opacity="0.45" stroke-width="0.6"/></pattern>
+<pattern id="glass" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="4" stroke="#8FD0FF" stroke-opacity="0.5" stroke-width="0.4"/></pattern>
+<marker id="arrE" viewBox="0 0 10 10" refX="9.5" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M0,1.5 L10,5 L0,8.5 z" fill="#8FD0FF"/></marker>
+<marker id="arrS" viewBox="0 0 10 10" refX="0.5" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M10,1.5 L0,5 L10,8.5 z" fill="#8FD0FF"/></marker>
+<marker id="dot" viewBox="0 0 6 6" refX="3" refY="3" markerWidth="5" markerHeight="5"><circle cx="3" cy="3" r="2.2" fill="#8FD0FF"/></marker>
+<radialGradient id="vig" cx="50%" cy="50%" r="75%"><stop offset="0%" stop-color="#0E2F5A"/><stop offset="100%" stop-color="#0B2648"/></radialGradient>
+<style>
+ text { font-family: 'Liberation Sans','Helvetica Neue',Helvetica,Arial,sans-serif; fill: #EAF3FF; }
+ .mono { font-family: 'DejaVu Sans Mono',Menlo,Consolas,monospace; }
+ .v { stroke: #EAF3FF; stroke-width: 1.1; stroke-linejoin: round; stroke-linecap: round; }
+ .vt2 { stroke: #EAF3FF; stroke-width: 0.6; }
+ .hid { stroke: #9FC2E6; stroke-width: 0.7; stroke-dasharray: 4 2.5; }
+ .cl { stroke: #8FD0FF; stroke-width: 0.6; stroke-dasharray: 14 3 2 3; }
+ .dim { stroke: #8FD0FF; stroke-width: 0.7; }
+ .ext { stroke: #8FD0FF; stroke-width: 0.5; stroke-opacity: 0.8; }
+ .dimt { fill: #8FD0FF; }
+ .lab { fill: #EAF3FF; }
+ .sub { fill: #9DB4D0; }
+ .vt { fill: #EAF3FF; }
+ .ray { stroke: #F5C451; stroke-width: 0.8; stroke-opacity: 0.9; }
+ .axis { stroke: #F5C451; stroke-width: 0.8; stroke-dasharray: 10 3 2 3; stroke-opacity: 0.9; }
+ .frame { stroke: #EAF3FF; stroke-width: 1.4; }
+ .thin { stroke: #EAF3FF; stroke-width: 0.5; }
+ .tb { stroke: #EAF3FF; stroke-width: 0.8; }
+</style>
+</defs>
+<rect x="0.00" y="0.00" width="1682.00" height="1188.00" class="thin" fill="url(#vig)" />
+<rect x="0.00" y="0.00" width="1682.00" height="1188.00" class="thin" fill="url(#gridS)" stroke="none"/>
+<rect x="0.00" y="0.00" width="1682.00" height="1188.00" class="thin" fill="url(#gridL)" stroke="none"/>
+<rect x="30.00" y="30.00" width="1622.00" height="1128.00" class="frame" fill="none" />
+<text x="48.00" y="58.00" class="t" text-anchor="start" style="font-size:20px;font-weight:bold;letter-spacing:2.5px;">RTM-100  ROBOTIC TIME-LAPSE MICROSCOPE</text>
+<line x1="48.00" y1="84.00" x2="900.00" y2="84.00" class="thin" />
+<text x="260.00" y="735.00" class="vt" text-anchor="middle" style="font-size:11px;font-weight:bold;letter-spacing:1.2px;">FRONT ELEVATION</text>
+<rect x="115.00" y="572.70" width="20.00" height="100.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="113.00" y="672.70" width="24.00" height="3.00" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="385.00" y="572.70" width="20.00" height="100.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="383.00" y="672.70" width="24.00" height="3.00" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="110.00" y="560.00" width="300.00" height="12.70" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="230.00" y="572.70" width="60.00" height="15.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="244.75" y="572.70" width="30.50" height="43.50" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="247.50" y="616.20" width="25.00" height="3.80" class="v" fill="rgba(255,255,255,0.12)" />
+<line x1="247.50" y1="617.00" x2="272.50" y2="617.00" class="thin" />
+<line x1="247.50" y1="617.70" x2="272.50" y2="617.70" class="thin" />
+<line x1="247.50" y1="618.40" x2="272.50" y2="618.40" class="thin" />
+<line x1="247.50" y1="619.10" x2="272.50" y2="619.10" class="thin" />
+<line x1="247.50" y1="619.80" x2="272.50" y2="619.80" class="thin" />
+<rect x="295.00" y="582.70" width="100.00" height="1.60" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="297.00" y="572.70" width="3.00" height="10.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="390.00" y="572.70" width="3.00" height="10.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="250.00" y="260.00" width="20.00" height="300.00" class="v" fill="rgba(255,255,255,0.07)" />
+<line x1="260.00" y1="560.00" x2="260.00" y2="260.00" class="thin" />
+<rect x="254.00" y="276.00" width="12.00" height="150.00" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="246.50" y="357.55" width="27.00" height="45.40" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="230.00" y="354.85" width="60.00" height="50.80" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="230.00" y="405.65" width="60.00" height="6.35" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="235.00" y="375.65" width="50.00" height="30.00" class="v" fill="rgba(255,255,255,0.12)" />
+<line x1="260.00" y1="405.65" x2="260.00" y2="375.65" class="thin" />
+<rect x="244.75" y="339.00" width="30.50" height="133.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="244.75" y="331.40" width="30.50" height="7.60" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="242.00" y="319.20" width="36.00" height="12.20" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="241.00" y="317.60" width="38.00" height="1.60" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="251.00" y="313.00" width="18.00" height="4.60" class="v" fill="rgba(255,255,255,0.07)" />
+<polygon points="248.00,472.00 272.00,472.00 272.00,498.00 265.00,506.40 255.00,506.40 248.00,498.00" class="v" fill="rgba(255,255,255,0.07)" />
+<line x1="260.00" y1="463.00" x2="260.00" y2="313.00" class="hid" />
+<rect x="256.00" y="263.00" width="8.00" height="50.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="235.00" y="250.00" width="50.00" height="10.00" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="239.00" y="230.00" width="42.00" height="20.00" class="v" fill="rgba(255,255,255,0.07)" />
+<circle cx="260.00" cy="240.00" r="7.00" class="thin" fill="none" />
+<rect x="194.00" y="552.00" width="12.00" height="8.00" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="314.00" y="552.00" width="12.00" height="8.00" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="186.50" y="547.00" width="27.00" height="10.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="306.50" y="547.00" width="27.00" height="10.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="180.00" y="540.65" width="200.00" height="6.35" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="185.00" y="532.65" width="150.00" height="8.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="237.30" y="527.65" width="45.40" height="10.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="175.00" y="521.30" width="170.00" height="6.35" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="185.00" y="518.30" width="150.00" height="3.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="222.50" y="517.20" width="75.00" height="1.10" class="v" fill="rgba(255,255,255,0.03)" />
+<line x1="222.50" y1="517.20" x2="297.50" y2="517.20" class="vt2" />
+<rect x="380.00" y="508.00" width="6.00" height="50.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="386.00" y="512.00" width="20.00" height="42.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="140.00" y="524.00" width="50.00" height="72.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="144.00" y="524.00" width="42.00" height="42.00" class="v" fill="rgba(255,255,255,0.12)" />
+<circle cx="165.00" cy="545.00" r="11.00" class="thin" fill="none" />
+<circle cx="165.00" cy="545.00" r="2.50" class="thin" fill="none" />
+<line x1="260.00" y1="632.00" x2="260.00" y2="292.00" class="axis" />
+<text x="264.00" y="628.00" class="dimt" text-anchor="start" style="font-size:7.5px;">OPTICAL AXIS X=150</text>
+<line x1="110.00" y1="672.70" x2="110.00" y2="685.00" class="ext" />
+<line x1="410.00" y1="672.70" x2="410.00" y2="685.00" class="ext" />
+<line x1="110.00" y1="685.00" x2="410.00" y2="685.00" class="dim" marker-start="url(#arrS)" marker-end="url(#arrE)"/>
+<text x="260.00" y="695.50" class="dimt" text-anchor="middle" style="font-size:8.5px;">300</text>
+<line x1="110.00" y1="215.00" x2="110.00" y2="230.00" class="ext" />
+<line x1="406.00" y1="215.00" x2="406.00" y2="230.00" class="ext" />
+<line x1="110.00" y1="215.00" x2="406.00" y2="215.00" class="dim" marker-start="url(#arrS)" marker-end="url(#arrE)"/>
+<text x="258.00" y="212.00" class="dimt" text-anchor="middle" style="font-size:8.5px;">296 (BASE 300, X MOTOR TO 296)</text>
+<line x1="410.00" y1="230.00" x2="422.00" y2="230.00" class="ext" />
+<line x1="410.00" y1="672.70" x2="422.00" y2="672.70" class="ext" />
+<line x1="422.00" y1="230.00" x2="422.00" y2="672.70" class="dim" marker-start="url(#arrS)" marker-end="url(#arrE)"/>
+<text x="426.00" y="451.35" class="dimt" text-anchor="middle" style="font-size:8.5px;" transform="rotate(-90 426.0 451.35)">443 OVERALL</text>
+<line x1="210.00" y1="260.00" x2="250.00" y2="260.00" class="ext" />
+<line x1="210.00" y1="560.00" x2="250.00" y2="560.00" class="ext" />
+<line x1="210.00" y1="260.00" x2="210.00" y2="560.00" class="dim" marker-start="url(#arrS)" marker-end="url(#arrE)"/>
+<text x="206.00" y="410.00" class="dimt" text-anchor="middle" style="font-size:8.5px;" transform="rotate(-90 206.0 410.0)">300 COLUMN</text>
+<line x1="345.00" y1="517.00" x2="358.00" y2="517.00" class="ext" />
+<line x1="345.00" y1="560.00" x2="358.00" y2="560.00" class="ext" />
+<line x1="358.00" y1="517.00" x2="358.00" y2="560.00" class="dim" marker-start="url(#arrS)" marker-end="url(#arrE)"/>
+<text x="362.00" y="538.50" class="dimt" text-anchor="middle" style="font-size:8.5px;" transform="rotate(-90 362.0 538.5)">43.0 SAMPLE</text>
+<line x1="272.00" y1="472.00" x2="288.00" y2="472.00" class="ext" />
+<line x1="272.00" y1="517.00" x2="288.00" y2="517.00" class="ext" />
+<line x1="288.00" y1="472.00" x2="288.00" y2="517.00" class="dim" marker-start="url(#arrS)" marker-end="url(#arrE)"/>
+<text x="292.00" y="494.50" class="dimt" text-anchor="middle" style="font-size:8.5px;" transform="rotate(-90 292.0 494.5)">45.0 PARFOCAL</text>
+<line x1="235.00" y1="298.00" x2="285.00" y2="298.00" class="dim" marker-start="url(#arrS)" marker-end="url(#arrE)"/>
+<text x="289.00" y="301.00" class="dimt" text-anchor="start" style="font-size:8.5px;">X TRAVEL ±25</text>
+<line x1="275.25" y1="410.00" x2="325.00" y2="395.00" class="dim" marker-start="url(#dot)"/>
+<text x="328.00" y="398.00" class="lab" text-anchor="start" style="font-size:8.5px;">SM1 TUBE Ø30.5</text>
+<line x1="279.00" y1="319.00" x2="325.00" y2="319.00" class="dim" marker-start="url(#dot)"/>
+<text x="328.00" y="322.00" class="lab" text-anchor="start" style="font-size:8.5px;">HQ CAMERA IMX477</text>
+<line x1="281.00" y1="240.00" x2="325.00" y2="242.00" class="dim" marker-start="url(#dot)"/>
+<text x="328.00" y="245.00" class="lab" text-anchor="start" style="font-size:8.5px;">Z MOTOR NEMA17 0.9°</text>
+<line x1="273.50" y1="365.25" x2="325.00" y2="360.25" class="dim" marker-start="url(#dot)"/>
+<text x="328.00" y="363.25" class="lab" text-anchor="start" style="font-size:8.5px;">MGN12H CARRIAGE</text>
+<line x1="406.00" y1="533.00" x2="415.00" y2="500.00" class="dim" marker-start="url(#dot)"/>
+<text x="418.00" y="503.00" class="lab" text-anchor="start" style="font-size:8.5px;">X MOTOR</text>
+<line x1="144.00" y1="545.00" x2="114.00" y2="500.00" class="dim" marker-start="url(#dot)"/>
+<text x="111.00" y="503.00" class="lab" text-anchor="end" style="font-size:8.5px;">Y MOTOR</text>
+<line x1="244.75" y1="600.00" x2="210.00" y2="605.00" class="dim" marker-start="url(#dot)"/>
+<text x="207.00" y="608.00" class="lab" text-anchor="end" style="font-size:8.5px;">ILLUMINATOR</text>
+<line x1="375.00" y1="584.30" x2="368.00" y2="646.00" class="dim" marker-start="url(#dot)"/>
+<text x="365.00" y="649.00" class="lab" text-anchor="middle" style="font-size:8.5px;">CONTROLLER PCB</text>
+<line x1="266.00" y1="276.00" x2="325.00" y2="268.00" class="dim" marker-start="url(#dot)"/>
+<text x="328.00" y="271.00" class="lab" text-anchor="start" style="font-size:8.5px;">MGN12H ×150 Z RAIL</text>
+<line x1="255.00" y1="502.00" x2="325.00" y2="494.00" class="dim" marker-start="url(#dot)"/>
+<text x="328.00" y="497.00" class="lab" text-anchor="start" style="font-size:8.5px;">10× / 0.25 OBJECTIVE</text>
+<text x="660.00" y="735.00" class="vt" text-anchor="middle" style="font-size:11px;font-weight:bold;letter-spacing:1.2px;">SIDE ELEVATION</text>
+<rect x="525.00" y="572.70" width="20.00" height="100.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="523.00" y="672.70" width="24.00" height="3.00" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="745.00" y="572.70" width="20.00" height="100.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="743.00" y="672.70" width="24.00" height="3.00" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="520.00" y="560.00" width="250.00" height="12.70" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="630.00" y="572.70" width="80.00" height="15.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="644.75" y="572.70" width="30.50" height="43.50" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="647.50" y="616.20" width="25.00" height="3.80" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="660.00" y="582.70" width="80.00" height="1.60" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="662.00" y="572.70" width="3.00" height="10.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="735.00" y="572.70" width="3.00" height="10.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="540.00" y="260.00" width="40.00" height="300.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="526.00" y="310.00" width="9.00" height="90.00" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="535.00" y="308.00" width="5.00" height="94.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="580.00" y="276.00" width="8.00" height="150.00" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="588.00" y="357.55" width="5.00" height="45.40" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="593.00" y="354.85" width="6.35" height="50.80" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="593.00" y="399.30" width="50.80" height="6.35" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="593.00" y="405.65" width="110.00" height="6.35" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="605.00" y="395.30" width="12.00" height="4.00" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="607.00" y="364.25" width="8.00" height="31.05" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="607.00" y="263.00" width="8.00" height="200.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="645.00" y="375.65" width="30.00" height="30.00" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="644.75" y="339.00" width="30.50" height="133.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="644.75" y="331.40" width="30.50" height="7.60" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="642.00" y="319.20" width="36.00" height="12.20" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="641.00" y="317.60" width="38.00" height="1.60" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="651.00" y="313.00" width="18.00" height="4.60" class="v" fill="rgba(255,255,255,0.07)" />
+<polygon points="648.00,472.00 672.00,472.00 672.00,498.00 665.00,506.40 655.00,506.40 648.00,498.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="535.00" y="250.00" width="100.00" height="10.00" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="535.00" y="260.00" width="5.00" height="40.00" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="590.00" y="230.00" width="42.00" height="20.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="601.00" y="252.00" width="20.00" height="25.00" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="610.00" y="552.00" width="100.00" height="8.00" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="637.30" y="547.00" width="45.40" height="10.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="605.00" y="540.65" width="110.00" height="6.35" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="609.00" y="532.65" width="12.00" height="8.00" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="699.00" y="532.65" width="12.00" height="8.00" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="601.50" y="527.65" width="27.00" height="10.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="691.50" y="527.65" width="27.00" height="10.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="600.00" y="521.30" width="120.00" height="6.35" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="610.00" y="518.30" width="100.00" height="3.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="647.50" y="517.20" width="25.00" height="1.10" class="v" fill="rgba(255,255,255,0.03)" />
+<rect x="714.00" y="512.00" width="42.00" height="42.00" class="hid" fill="none" />
+<rect x="710.00" y="508.00" width="50.00" height="50.00" class="hid" fill="none" />
+<rect x="770.00" y="524.00" width="6.00" height="72.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="776.00" y="524.00" width="20.00" height="42.00" class="v" fill="rgba(255,255,255,0.12)" />
+<line x1="660.00" y1="622.00" x2="660.00" y2="305.00" class="axis" />
+<line x1="520.00" y1="672.70" x2="520.00" y2="685.00" class="ext" />
+<line x1="770.00" y1="672.70" x2="770.00" y2="685.00" class="ext" />
+<line x1="520.00" y1="685.00" x2="770.00" y2="685.00" class="dim" marker-start="url(#arrS)" marker-end="url(#arrE)"/>
+<text x="645.00" y="695.50" class="dimt" text-anchor="middle" style="font-size:8.5px;">250</text>
+<line x1="520.00" y1="215.00" x2="520.00" y2="230.00" class="ext" />
+<line x1="796.00" y1="215.00" x2="796.00" y2="230.00" class="ext" />
+<line x1="520.00" y1="215.00" x2="796.00" y2="215.00" class="dim" marker-start="url(#arrS)" marker-end="url(#arrE)"/>
+<text x="658.00" y="212.00" class="dimt" text-anchor="middle" style="font-size:8.5px;">276 OVERALL DEPTH (Y MOTOR OUTBOARD)</text>
+<line x1="725.00" y1="390.50" x2="725.00" y2="495.00" class="dim" marker-start="url(#arrS)" marker-end="url(#arrE)"/>
+<text x="729.00" y="442.75" class="dimt" text-anchor="middle" style="font-size:8.5px;" transform="rotate(-90 729.0 442.75)">100 Z TRAVEL</text>
+<line x1="599.35" y1="308.00" x2="660.00" y2="308.00" class="dim" marker-start="url(#arrS)" marker-end="url(#arrE)"/>
+<text x="629.67" y="318.50" class="dimt" text-anchor="middle" style="font-size:8.5px;">61 ARM</text>
+<line x1="592.00" y1="517.00" x2="592.00" y2="616.20" class="dim" marker-start="url(#arrS)" marker-end="url(#arrE)"/>
+<text x="588.00" y="566.60" class="dimt" text-anchor="middle" style="font-size:8.5px;" transform="rotate(-90 588.0 566.6)">99 CONDENSER</text>
+<line x1="745.00" y1="572.70" x2="760.00" y2="572.70" class="ext" />
+<line x1="745.00" y1="672.70" x2="760.00" y2="672.70" class="ext" />
+<line x1="760.00" y1="572.70" x2="760.00" y2="672.70" class="dim" marker-start="url(#arrS)" marker-end="url(#arrE)"/>
+<text x="764.00" y="622.70" class="dimt" text-anchor="middle" style="font-size:8.5px;" transform="rotate(-90 764.0 622.7)">100 LEGS 2020</text>
+<line x1="644.75" y1="278.00" x2="675.25" y2="278.00" class="dim" marker-start="url(#arrS)" marker-end="url(#arrE)"/>
+<text x="660.00" y="275.00" class="dimt" text-anchor="middle" style="font-size:8.5px;">Ø30.5</text>
+<line x1="532.00" y1="310.00" x2="520.00" y2="238.00" class="dim" marker-start="url(#dot)"/>
+<text x="523.00" y="241.00" class="lab" text-anchor="start" style="font-size:8.5px;">RASPBERRY PI 5 (REAR)</text>
+<line x1="617.00" y1="370.25" x2="630.00" y2="335.25" class="dim" marker-start="url(#dot)"/>
+<text x="633.00" y="338.25" class="lab" text-anchor="start" style="font-size:8.5px;">Tr8×2 LEAD SCREW + ANTI-BACKLASH NUT</text>
+<line x1="703.00" y1="408.25" x2="735.00" y2="440.25" class="dim" marker-start="url(#dot)"/>
+<text x="738.00" y="443.25" class="lab" text-anchor="start" style="font-size:8.5px;">ARM P-07 / ANGLE P-06</text>
+<line x1="710.00" y1="580.00" x2="740.00" y2="600.00" class="dim" marker-start="url(#dot)"/>
+<text x="743.00" y="603.00" class="lab" text-anchor="start" style="font-size:8.5px;">FLANGE CLAMP P-31</text>
+<line x1="720.00" y1="525.00" x2="750.00" y2="478.00" class="dim" marker-start="url(#dot)"/>
+<text x="753.00" y="481.00" class="lab" text-anchor="start" style="font-size:8.5px;">XY STAGE: 2× MGN12H PER AXIS</text>
+<line x1="672.50" y1="517.00" x2="750.00" y2="500.00" class="dim" marker-start="url(#dot)"/>
+<text x="753.00" y="503.00" class="lab" text-anchor="start" style="font-size:8.5px;">SAMPLE PLANE Z=43.0</text>
+<text x="654.00" y="646.00" class="t" text-anchor="middle" style="font-size:10px;font-weight:bold;fill:#F5C451;">B</text>
+<text x="654.00" y="300.00" class="t" text-anchor="middle" style="font-size:10px;font-weight:bold;fill:#F5C451;">B</text>
+<text x="260.00" y="1128.00" class="vt" text-anchor="middle" style="font-size:11px;font-weight:bold;letter-spacing:1.2px;">PLAN VIEW</text>
+<rect x="110.00" y="800.00" width="300.00" height="250.00" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="115.00" y="805.00" width="20.00" height="20.00" class="hid" fill="none" />
+<rect x="115.00" y="1025.00" width="20.00" height="20.00" class="hid" fill="none" />
+<rect x="385.00" y="805.00" width="20.00" height="20.00" class="hid" fill="none" />
+<rect x="385.00" y="1025.00" width="20.00" height="20.00" class="hid" fill="none" />
+<rect x="194.00" y="890.00" width="12.00" height="100.00" class="hid" fill="none" />
+<rect x="314.00" y="890.00" width="12.00" height="100.00" class="hid" fill="none" />
+<circle cx="260.00" cy="940.00" r="16.00" class="hid" fill="none" />
+<rect x="295.00" y="940.00" width="100.00" height="80.00" class="hid" fill="none" />
+<line x1="165.00" y1="869.00" x2="165.00" y2="1019.00" class="hid" />
+<rect x="180.00" y="885.00" width="200.00" height="110.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="242.00" y="910.00" width="36.00" height="60.00" class="v" fill="rgba(255,255,255,0.03)" />
+<rect x="185.00" y="889.00" width="150.00" height="12.00" class="hid" fill="none" />
+<rect x="185.00" y="979.00" width="150.00" height="12.00" class="hid" fill="none" />
+<rect x="175.00" y="880.00" width="170.00" height="120.00" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="220.00" y="914.00" width="80.00" height="52.00" class="v" fill="rgba(255,255,255,0.03)" />
+<rect x="185.00" y="890.00" width="150.00" height="100.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="230.00" y="930.00" width="60.00" height="20.00" class="v" fill="rgba(255,255,255,0.03)" />
+<rect x="222.50" y="927.50" width="75.00" height="25.00" class="v" fill="none" />
+<rect x="218.00" y="1011.00" width="150.00" height="8.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="380.00" y="990.00" width="6.00" height="50.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="386.00" y="994.00" width="20.00" height="42.00" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="140.00" y="1050.00" width="50.00" height="6.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="144.00" y="1056.00" width="42.00" height="20.00" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="250.00" y="820.00" width="20.00" height="40.00" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="212.00" y="806.00" width="95.00" height="9.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="235.00" y="815.00" width="50.00" height="100.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="239.00" y="870.00" width="42.00" height="42.00" class="v" fill="rgba(255,255,255,0.12)" />
+<circle cx="260.00" cy="891.00" r="7.00" class="thin" fill="none" />
+<rect x="230.00" y="873.00" width="60.00" height="110.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="235.00" y="925.00" width="50.00" height="30.00" class="v" fill="rgba(255,255,255,0.12)" />
+<circle cx="260.00" cy="940.00" r="15.25" class="v" fill="rgba(255,255,255,0.03)" />
+<rect x="241.00" y="921.00" width="38.00" height="38.00" class="v" fill="rgba(255,255,255,0.12)" />
+<circle cx="260.00" cy="940.00" r="4.00" class="thin" fill="none" />
+<line x1="260.00" y1="792.00" x2="260.00" y2="1082.00" class="cl" />
+<line x1="102.00" y1="940.00" x2="418.00" y2="940.00" class="cl" />
+<line x1="110.00" y1="778.00" x2="110.00" y2="800.00" class="ext" />
+<line x1="410.00" y1="778.00" x2="410.00" y2="800.00" class="ext" />
+<line x1="110.00" y1="778.00" x2="410.00" y2="778.00" class="dim" marker-start="url(#arrS)" marker-end="url(#arrE)"/>
+<text x="260.00" y="775.00" class="dimt" text-anchor="middle" style="font-size:8.5px;">300</text>
+<line x1="82.00" y1="800.00" x2="110.00" y2="800.00" class="ext" />
+<line x1="82.00" y1="1050.00" x2="110.00" y2="1050.00" class="ext" />
+<line x1="82.00" y1="800.00" x2="82.00" y2="1050.00" class="dim" marker-start="url(#arrS)" marker-end="url(#arrE)"/>
+<text x="78.00" y="925.00" class="dimt" text-anchor="middle" style="font-size:8.5px;" transform="rotate(-90 78.0 925.0)">250</text>
+<line x1="110.00" y1="790.00" x2="260.00" y2="790.00" class="dim" marker-start="url(#arrS)" marker-end="url(#arrE)"/>
+<text x="185.00" y="787.00" class="dimt" text-anchor="middle" style="font-size:8.5px;">150</text>
+<line x1="96.00" y1="800.00" x2="96.00" y2="940.00" class="dim" marker-start="url(#arrS)" marker-end="url(#arrE)"/>
+<text x="92.00" y="870.00" class="dimt" text-anchor="middle" style="font-size:8.5px;" transform="rotate(-90 92.0 870.0)">140</text>
+<line x1="180.00" y1="1032.00" x2="380.00" y2="1032.00" class="dim" marker-start="url(#arrS)" marker-end="url(#arrE)"/>
+<text x="280.00" y="1042.50" class="dimt" text-anchor="middle" style="font-size:8.5px;">Y PLATE 200</text>
+<line x1="175.00" y1="874.00" x2="345.00" y2="874.00" class="dim" marker-start="url(#arrS)" marker-end="url(#arrE)"/>
+<text x="260.00" y="871.00" class="dimt" text-anchor="middle" style="font-size:8.5px;">X PLATE 170</text>
+<line x1="392.00" y1="885.00" x2="392.00" y2="995.00" class="dim" marker-start="url(#arrS)" marker-end="url(#arrE)"/>
+<text x="396.00" y="940.00" class="dimt" text-anchor="middle" style="font-size:8.5px;" transform="rotate(-90 396.0 940.0)">110</text>
+<line x1="396.00" y1="1036.00" x2="396.00" y2="1050.00" class="dim" marker-start="url(#dot)"/>
+<text x="393.00" y="1053.00" class="lab" text-anchor="middle" style="font-size:8.5px;">X MOTOR</text>
+<line x1="186.00" y1="1066.00" x2="200.00" y2="1072.00" class="dim" marker-start="url(#dot)"/>
+<text x="203.00" y="1075.00" class="lab" text-anchor="start" style="font-size:8.5px;">Y MOTOR</text>
+<line x1="165.00" y1="900.00" x2="120.00" y2="845.00" class="dim" marker-start="url(#dot)"/>
+<text x="123.00" y="848.00" class="lab" text-anchor="start" style="font-size:8.5px;">Y SCREW (HIDDEN)</text>
+<line x1="310.00" y1="1019.00" x2="310.00" y2="1058.00" class="dim" marker-start="url(#dot)"/>
+<text x="307.00" y="1061.00" class="lab" text-anchor="middle" style="font-size:8.5px;">X SCREW Y=215</text>
+<line x1="279.00" y1="925.00" x2="330.00" y2="870.00" class="dim" marker-start="url(#dot)"/>
+<text x="333.00" y="873.00" class="lab" text-anchor="start" style="font-size:8.5px;">CAMERA / OPTICAL HEAD</text>
+<line x1="276.00" y1="840.00" x2="330.00" y2="840.00" class="dim" marker-start="url(#dot)"/>
+<text x="333.00" y="843.00" class="lab" text-anchor="start" style="font-size:8.5px;">Z MOTOR MOUNT P-09</text>
+<line x1="276.00" y1="940.00" x2="410.00" y2="918.00" class="dim" marker-start="url(#dot)"/>
+<text x="413.00" y="921.00" class="lab" text-anchor="start" style="font-size:8.5px;">Ø32 BORE (HIDDEN)</text>
+<text x="260.00" y="920.00" class="t" text-anchor="middle" style="font-size:10px;font-weight:bold;fill:#F5C451;">A</text>
+<text x="260.00" y="969.00" class="t" text-anchor="middle" style="font-size:10px;font-weight:bold;fill:#F5C451;">A</text>
+<text x="985.00" y="447.00" class="vt" text-anchor="middle" style="font-size:11px;font-weight:bold;letter-spacing:1.2px;">SECTION A-A</text>
+<line x1="925.00" y1="413.50" x2="1045.00" y2="413.50" class="cl" />
+<text x="1048.00" y="416.50" class="dimt" text-anchor="start" style="font-size:7.5px;">SAMPLE Z=43.0</text>
+<polygon points="967.00,346.00 967.00,385.00 977.50,397.60 980.50,397.60 971.50,385.00 971.50,346.00" class="v" fill="url(#hatch)" />
+<polygon points="1003.00,346.00 1003.00,385.00 992.50,397.60 989.50,397.60 998.50,385.00 998.50,346.00" class="v" fill="url(#hatch)" />
+<line x1="971.50" y1="385.00" x2="998.50" y2="385.00" class="thin" />
+<ellipse cx="985.00" cy="392.50" rx="5.25" ry="2.40" class="thin" fill="url(#glass)" />
+<ellipse cx="985.00" cy="379.00" rx="9.00" ry="2.40" class="thin" fill="url(#glass)" />
+<ellipse cx="985.00" cy="361.00" rx="10.50" ry="2.40" class="thin" fill="url(#glass)" />
+<rect x="962.12" y="337.00" width="7.58" height="9.00" class="v" fill="url(#hatch)" />
+<rect x="1000.30" y="337.00" width="7.58" height="9.00" class="v" fill="url(#hatch)" />
+<rect x="962.12" y="260.80" width="3.83" height="76.20" class="v" fill="url(#hatch)" />
+<rect x="1004.05" y="260.80" width="3.83" height="76.20" class="v" fill="url(#hatch)" />
+<rect x="965.95" y="306.55" width="3.30" height="3.45" class="v" fill="url(#hatch)" />
+<rect x="1000.75" y="306.55" width="3.30" height="3.45" class="v" fill="url(#hatch)" />
+<line x1="969.25" y1="308.50" x2="1000.75" y2="308.50" class="thin" />
+<rect x="965.95" y="257.95" width="1.95" height="16.05" class="v" fill="url(#hatch)" />
+<rect x="1002.10" y="257.95" width="1.95" height="16.05" class="v" fill="url(#hatch)" />
+<path d="M967.9,268.0 Q985.0,258.2 1002.1,268.0 Q985.0,272.2 967.9,268.0 Z" class="v" fill="url(#glass)" />
+<rect x="962.12" y="146.50" width="3.83" height="114.30" class="v" fill="url(#hatch)" />
+<rect x="1004.05" y="146.50" width="3.83" height="114.30" class="v" fill="url(#hatch)" />
+<rect x="962.12" y="135.10" width="3.83" height="11.40" class="v" fill="url(#hatch)" />
+<rect x="1004.05" y="135.10" width="3.83" height="11.40" class="v" fill="url(#hatch)" />
+<rect x="958.00" y="116.80" width="7.95" height="18.30" class="v" fill="url(#hatch2)" />
+<rect x="1004.05" y="116.80" width="7.95" height="18.30" class="v" fill="url(#hatch2)" />
+<rect x="956.50" y="114.40" width="57.00" height="2.40" class="v" fill="url(#hatch)" />
+<line x1="980.27" y1="118.60" x2="989.73" y2="118.60" class="v" />
+<polyline points="985.00,413.50 981.10,397.60 978.25,385.00 978.25,268.00 985.00,118.60" class="ray" fill="none" />
+<polyline points="985.00,413.50 988.90,397.60 991.75,385.00 991.75,268.00 985.00,118.60" class="ray" fill="none" />
+<line x1="985.00" y1="418.00" x2="985.00" y2="103.00" class="axis" />
+<line x1="968.50" y1="373.00" x2="949.00" y2="373.00" class="dim" marker-start="url(#dot)"/>
+<text x="946.00" y="376.00" class="lab" text-anchor="end" style="font-size:8.5px;">OBJECTIVE 10×/0.25 ∞/180</text>
+<line x1="962.12" y1="341.50" x2="949.00" y2="341.50" class="dim" marker-start="url(#dot)"/>
+<text x="946.00" y="344.50" class="lab" text-anchor="end" style="font-size:8.5px;">SM1A3 RMS→SM1</text>
+<line x1="962.12" y1="308.50" x2="949.00" y2="308.50" class="dim" marker-start="url(#dot)"/>
+<text x="946.00" y="311.50" class="lab" text-anchor="end" style="font-size:8.5px;">ANALYZER (SM1RR)</text>
+<line x1="962.12" y1="286.00" x2="949.00" y2="286.00" class="dim" marker-start="url(#dot)"/>
+<text x="946.00" y="289.00" class="lab" text-anchor="end" style="font-size:8.5px;">SM1L20 INFINITY SPACE</text>
+<line x1="962.12" y1="266.50" x2="949.00" y2="266.50" class="dim" marker-start="url(#dot)"/>
+<text x="946.00" y="269.50" class="lab" text-anchor="end" style="font-size:8.5px;">AC254-100-A-ML f=100.1</text>
+<line x1="962.12" y1="200.50" x2="949.00" y2="200.50" class="dim" marker-start="url(#dot)"/>
+<text x="946.00" y="203.50" class="lab" text-anchor="end" style="font-size:8.5px;">SM1L30 SPACER</text>
+<line x1="962.12" y1="140.50" x2="949.00" y2="140.50" class="dim" marker-start="url(#dot)"/>
+<text x="946.00" y="143.50" class="lab" text-anchor="end" style="font-size:8.5px;">SM1A9 → C-MOUNT</text>
+<line x1="962.12" y1="118.60" x2="949.00" y2="118.60" class="dim" marker-start="url(#dot)"/>
+<text x="946.00" y="121.60" class="lab" text-anchor="end" style="font-size:8.5px;">SENSOR 6.29×4.71 (BF 17)</text>
+<line x1="1003.00" y1="346.00" x2="1045.00" y2="346.00" class="ext" />
+<line x1="1003.00" y1="413.50" x2="1045.00" y2="413.50" class="ext" />
+<line x1="1045.00" y1="346.00" x2="1045.00" y2="413.50" class="dim" marker-start="url(#arrS)" marker-end="url(#arrE)"/>
+<text x="1049.00" y="379.75" class="dimt" text-anchor="middle" style="font-size:8.5px;" transform="rotate(-90 1049.0 379.75)">45.0</text>
+<line x1="1025.50" y1="346.00" x2="1025.50" y2="397.60" class="dim" marker-start="url(#arrS)" marker-end="url(#arrE)"/>
+<text x="1029.50" y="371.80" class="dimt" text-anchor="middle" style="font-size:8.5px;" transform="rotate(-90 1029.5 371.8)">34.3</text>
+<line x1="1045.00" y1="274.00" x2="1045.00" y2="346.00" class="dim" marker-start="url(#arrS)" marker-end="url(#arrE)"/>
+<text x="1049.00" y="310.00" class="dimt" text-anchor="middle" style="font-size:8.5px;" transform="rotate(-90 1049.0 310.0)">d≈48</text>
+<line x1="1057.00" y1="118.60" x2="1057.00" y2="264.25" class="dim" marker-start="url(#arrS)" marker-end="url(#arrE)"/>
+<text x="1061.00" y="191.43" class="dimt" text-anchor="middle" style="font-size:8.5px;" transform="rotate(-90 1061.0 191.425)">BFL 97.1</text>
+<line x1="1075.00" y1="107.50" x2="1075.00" y2="346.00" class="dim" marker-start="url(#arrS)" marker-end="url(#arrE)"/>
+<text x="1079.00" y="226.75" class="dimt" text-anchor="middle" style="font-size:8.5px;" transform="rotate(-90 1079.0 226.75)">159</text>
+<line x1="962.12" y1="230.50" x2="1007.88" y2="230.50" class="dim" marker-start="url(#arrS)" marker-end="url(#arrE)"/>
+<text x="985.00" y="227.50" class="dimt" text-anchor="middle" style="font-size:8.5px;">Ø30.5</text>
+<line x1="965.95" y1="178.00" x2="1004.05" y2="178.00" class="dim" marker-start="url(#arrS)" marker-end="url(#arrE)"/>
+<text x="985.00" y="175.00" class="dimt" text-anchor="middle" style="font-size:8.5px;">Ø25.4 SM1</text>
+<text x="1250.00" y="464.00" class="vt" text-anchor="middle" style="font-size:11px;font-weight:bold;letter-spacing:1.2px;">SECTION B-B</text>
+<rect x="1178.00" y="300.00" width="40.00" height="25.40" class="v" fill="url(#hatch2)" />
+<rect x="1282.00" y="300.00" width="40.00" height="25.40" class="v" fill="url(#hatch2)" />
+<rect x="1194.00" y="325.40" width="25.50" height="30.00" class="v" fill="url(#hatch)" />
+<rect x="1280.50" y="325.40" width="25.50" height="30.00" class="v" fill="url(#hatch)" />
+<rect x="1219.50" y="260.00" width="5.10" height="152.40" class="v" fill="url(#hatch)" />
+<rect x="1275.40" y="260.00" width="5.10" height="152.40" class="v" fill="url(#hatch)" />
+<rect x="1225.00" y="390.00" width="50.00" height="21.80" class="v" fill="url(#hatch2)" />
+<rect x="1225.00" y="371.80" width="4.40" height="18.20" class="v" fill="url(#hatch2)" />
+<rect x="1235.00" y="371.80" width="4.40" height="18.20" class="v" fill="url(#hatch2)" />
+<rect x="1245.00" y="371.80" width="4.40" height="18.20" class="v" fill="url(#hatch2)" />
+<rect x="1255.00" y="371.80" width="4.40" height="18.20" class="v" fill="url(#hatch2)" />
+<rect x="1265.00" y="371.80" width="4.40" height="18.20" class="v" fill="url(#hatch2)" />
+<rect x="1275.00" y="371.80" width="4.40" height="18.20" class="v" fill="url(#hatch2)" />
+<rect x="1230.00" y="368.60" width="40.00" height="3.20" class="v" fill="none" />
+<rect x="1247.00" y="366.60" width="6.00" height="2.00" class="v" fill="#F5C451" />
+<rect x="1224.60" y="342.60" width="4.20" height="4.60" class="v" fill="url(#hatch)" />
+<rect x="1271.20" y="342.60" width="4.20" height="4.60" class="v" fill="url(#hatch)" />
+<rect x="1224.60" y="332.40" width="4.20" height="4.60" class="v" fill="url(#hatch)" />
+<rect x="1271.20" y="332.40" width="4.20" height="4.60" class="v" fill="url(#hatch)" />
+<rect x="1224.60" y="292.60" width="4.20" height="4.60" class="v" fill="url(#hatch)" />
+<rect x="1271.20" y="292.60" width="4.20" height="4.60" class="v" fill="url(#hatch)" />
+<rect x="1224.60" y="283.00" width="4.20" height="4.60" class="v" fill="url(#hatch)" />
+<rect x="1271.20" y="283.00" width="4.20" height="4.60" class="v" fill="url(#hatch)" />
+<rect x="1224.60" y="274.00" width="4.20" height="4.60" class="v" fill="url(#hatch)" />
+<rect x="1271.20" y="274.00" width="4.20" height="4.60" class="v" fill="url(#hatch)" />
+<rect x="1224.60" y="267.00" width="4.20" height="4.60" class="v" fill="url(#hatch)" />
+<rect x="1271.20" y="267.00" width="4.20" height="4.60" class="v" fill="url(#hatch)" />
+<path d="M1225.0,342.6 L1275.0,342.6 L1275.0,337.0 Q1250.0,330.6 1225.0,337.0 Z" class="v" fill="url(#glass)" />
+<rect x="1224.60" y="288.60" width="50.80" height="4.00" class="v" fill="url(#glass)" />
+<rect x="1224.60" y="287.60" width="19.00" height="1.00" class="v" fill="#EAF3FF" />
+<rect x="1256.40" y="287.60" width="19.00" height="1.00" class="v" fill="#EAF3FF" />
+<path d="M1224.6,274.0 L1275.4,274.0 L1275.4,271.6 Q1250.0,229.0 1224.6,271.6 Z" class="v" fill="url(#glass)" />
+<rect x="1178.00" y="261.30" width="36.00" height="12.70" class="v" fill="url(#hatch2)" />
+<rect x="1286.00" y="261.30" width="36.00" height="12.70" class="v" fill="url(#hatch2)" />
+<rect x="1178.00" y="222.60" width="12.00" height="12.70" class="v" fill="url(#hatch2)" />
+<rect x="1310.00" y="222.60" width="12.00" height="12.70" class="v" fill="url(#hatch2)" />
+<rect x="1178.00" y="216.60" width="52.00" height="6.00" class="v" fill="url(#hatch)" />
+<rect x="1270.00" y="216.60" width="52.00" height="6.00" class="v" fill="url(#hatch)" />
+<rect x="1190.00" y="214.40" width="120.00" height="2.20" class="v" fill="url(#glass)" />
+<line x1="1170.00" y1="214.00" x2="1330.00" y2="214.00" class="cl" />
+<polyline points="1250.00,366.60 1230.00,342.60 1229.00,324.00 1229.00,292.60" class="ray" fill="none" />
+<polyline points="1250.00,366.60 1270.00,342.60 1271.00,324.00 1271.00,292.60" class="ray" fill="none" />
+<polyline points="1254.00,288.60 1242.00,274.00 1240.00,246.00 1236.00,214.00" class="ray" fill="none" />
+<polyline points="1254.00,288.60 1254.00,274.00 1252.00,246.00 1248.00,214.00" class="ray" fill="none" />
+<polyline points="1254.00,288.60 1266.00,274.00 1264.00,246.00 1260.00,214.00" class="ray" fill="none" />
+<line x1="1250.00" y1="424.00" x2="1250.00" y2="204.00" class="axis" />
+<line x1="1330.00" y1="214.00" x2="1332.80" y2="214.00" class="dim" marker-start="url(#dot)"/>
+<line x1="1332.80" y1="214.00" x2="1338.00" y2="211.00" class="dim" />
+<text x="1341.00" y="214.00" class="lab" text-anchor="start" style="font-size:7.5px;">SAMPLE PLANE Z=43.0</text>
+<line x1="1322.00" y1="220.00" x2="1327.60" y2="220.00" class="dim" marker-start="url(#dot)"/>
+<line x1="1327.60" y1="220.00" x2="1338.00" y2="222.50" class="dim" />
+<text x="1341.00" y="225.50" class="lab" text-anchor="start" style="font-size:7.5px;">INSERT (PETG)</text>
+<line x1="1322.00" y1="228.00" x2="1327.60" y2="228.00" class="dim" marker-start="url(#dot)"/>
+<line x1="1327.60" y1="228.00" x2="1338.00" y2="234.00" class="dim" />
+<text x="1341.00" y="237.00" class="lab" text-anchor="start" style="font-size:7.5px;">X PLATE</text>
+<line x1="1275.40" y1="256.00" x2="1297.31" y2="256.00" class="dim" marker-start="url(#dot)"/>
+<line x1="1297.31" y1="256.00" x2="1338.00" y2="253.00" class="dim" />
+<text x="1341.00" y="256.00" class="lab" text-anchor="start" style="font-size:7.5px;">L2 ACL25416U f=16</text>
+<line x1="1322.00" y1="268.00" x2="1327.60" y2="268.00" class="dim" marker-start="url(#dot)"/>
+<line x1="1327.60" y1="268.00" x2="1338.00" y2="265.00" class="dim" />
+<text x="1341.00" y="268.00" class="lab" text-anchor="start" style="font-size:7.5px;">Y PLATE</text>
+<line x1="1275.40" y1="288.00" x2="1297.31" y2="288.00" class="dim" marker-start="url(#dot)"/>
+<line x1="1297.31" y1="288.00" x2="1338.00" y2="285.00" class="dim" />
+<text x="1341.00" y="288.00" class="lab" text-anchor="start" style="font-size:7.5px;">APERTURE DISC</text>
+<line x1="1275.40" y1="290.60" x2="1297.31" y2="290.60" class="dim" marker-start="url(#dot)"/>
+<line x1="1297.31" y1="290.60" x2="1338.00" y2="296.50" class="dim" />
+<text x="1341.00" y="299.50" class="lab" text-anchor="start" style="font-size:7.5px;">DIFFUSER DG10-1500</text>
+<line x1="1322.00" y1="312.00" x2="1327.60" y2="312.00" class="dim" marker-start="url(#dot)"/>
+<line x1="1327.60" y1="312.00" x2="1338.00" y2="309.00" class="dim" />
+<text x="1341.00" y="312.00" class="lab" text-anchor="start" style="font-size:7.5px;">BASE PLATE 12.7</text>
+<line x1="1275.00" y1="330.00" x2="1297.05" y2="330.00" class="dim" marker-start="url(#dot)"/>
+<line x1="1297.05" y1="330.00" x2="1338.00" y2="327.00" class="dim" />
+<text x="1341.00" y="330.00" class="lab" text-anchor="start" style="font-size:7.5px;">L1 ACL2520U f=20.1</text>
+<line x1="1306.00" y1="340.00" x2="1317.20" y2="340.00" class="dim" marker-start="url(#dot)"/>
+<line x1="1317.20" y1="340.00" x2="1338.00" y2="338.50" class="dim" />
+<text x="1341.00" y="341.50" class="lab" text-anchor="start" style="font-size:7.5px;">P-31 CLAMP</text>
+<line x1="1270.00" y1="368.00" x2="1293.80" y2="368.00" class="dim" marker-start="url(#dot)"/>
+<line x1="1293.80" y1="368.00" x2="1338.00" y2="365.00" class="dim" />
+<text x="1341.00" y="368.00" class="lab" text-anchor="start" style="font-size:7.5px;">LED 3 W, 4000 K</text>
+<line x1="1275.00" y1="400.00" x2="1297.05" y2="400.00" class="dim" marker-start="url(#dot)"/>
+<line x1="1297.05" y1="400.00" x2="1338.00" y2="397.00" class="dim" />
+<text x="1341.00" y="400.00" class="lab" text-anchor="start" style="font-size:7.5px;">HEATSINK Ø25×20</text>
+<line x1="1194.00" y1="342.60" x2="1194.00" y2="366.60" class="dim" marker-start="url(#arrS)" marker-end="url(#arrE)"/>
+<text x="1190.00" y="354.60" class="dimt" text-anchor="middle" style="font-size:8.5px;" transform="rotate(-90 1190.0 354.6)">12.0</text>
+<line x1="1194.00" y1="274.00" x2="1194.00" y2="288.60" class="dim" marker-start="url(#arrS)" marker-end="url(#arrE)"/>
+<text x="1190.00" y="281.30" class="dimt" text-anchor="middle" style="font-size:8.5px;" transform="rotate(-90 1190.0 281.3)">7.3</text>
+<line x1="1194.00" y1="214.00" x2="1194.00" y2="246.00" class="dim" marker-start="url(#arrS)" marker-end="url(#arrE)"/>
+<text x="1190.00" y="230.00" class="dimt" text-anchor="middle" style="font-size:8.5px;" transform="rotate(-90 1190.0 230.0)">16</text>
+<line x1="1158.00" y1="260.00" x2="1158.00" y2="412.40" class="dim" marker-start="url(#arrS)" marker-end="url(#arrE)"/>
+<text x="1154.00" y="336.20" class="dimt" text-anchor="middle" style="font-size:8.5px;" transform="rotate(-90 1154.0 336.2)">76.2 SM1L30</text>
+<line x1="1219.50" y1="430.00" x2="1280.50" y2="430.00" class="dim" marker-start="url(#arrS)" marker-end="url(#arrE)"/>
+<text x="1250.00" y="440.50" class="dimt" text-anchor="middle" style="font-size:8.5px;">Ø30.5</text>
+<text x="1250.00" y="448.00" class="dimt" text-anchor="middle" style="font-size:7.5px;">NA(cond) = D/(2·16): 0.10 / 0.20 / 0.30 / 0.40</text>
+<text x="672.00" y="1128.00" class="vt" text-anchor="middle" style="font-size:11px;font-weight:bold;letter-spacing:1.2px;">DETAIL C — STAGE STACK-UP</text>
+<rect x="500.00" y="1010.00" width="224.00" height="20.32" class="v" fill="url(#hatch2)" />
+<rect x="532.00" y="997.20" width="160.00" height="12.80" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="564.00" y="989.20" width="96.00" height="16.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="508.00" y="979.04" width="208.00" height="10.16" class="v" fill="url(#hatch)" />
+<rect x="516.00" y="966.24" width="19.20" height="12.80" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="676.00" y="966.24" width="19.20" height="12.80" class="v" fill="rgba(255,255,255,0.12)" />
+<rect x="503.20" y="958.24" width="43.20" height="16.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="663.20" y="958.24" width="43.20" height="16.00" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="500.00" y="948.08" width="224.00" height="10.16" class="v" fill="url(#hatch)" />
+<rect x="516.00" y="943.28" width="192.00" height="4.80" class="v" fill="rgba(255,255,255,0.07)" />
+<rect x="580.00" y="941.52" width="64.00" height="1.76" class="v" fill="rgba(255,255,255,0.03)" />
+<line x1="484.00" y1="941.20" x2="740.00" y2="941.20" class="cl" />
+<line x1="724.00" y1="1010.00" x2="736.80" y2="1010.00" class="ext" />
+<line x1="736.80" y1="1010.00" x2="749.60" y2="1011.00" class="ext" />
+<text x="752.80" y="1014.00" class="dimt" text-anchor="start" style="font-size:7.5px;">0  BASE TOP (DATUM)</text>
+<line x1="724.00" y1="997.20" x2="736.80" y2="997.20" class="ext" />
+<line x1="736.80" y1="997.20" x2="749.60" y2="1000.00" class="ext" />
+<text x="752.80" y="1003.00" class="dimt" text-anchor="start" style="font-size:7.5px;">8.0  RAIL TOP</text>
+<line x1="724.00" y1="989.20" x2="736.80" y2="989.20" class="ext" />
+<line x1="736.80" y1="989.20" x2="749.60" y2="989.00" class="ext" />
+<text x="752.80" y="992.00" class="dimt" text-anchor="start" style="font-size:7.5px;">13.0  BLOCK TOP / Y PLATE</text>
+<line x1="724.00" y1="979.04" x2="736.80" y2="979.04" class="ext" />
+<line x1="736.80" y1="979.04" x2="749.60" y2="978.00" class="ext" />
+<text x="752.80" y="981.00" class="dimt" text-anchor="start" style="font-size:7.5px;">19.35  Y PLATE TOP</text>
+<line x1="724.00" y1="966.24" x2="736.80" y2="966.24" class="ext" />
+<line x1="736.80" y1="966.24" x2="749.60" y2="967.00" class="ext" />
+<text x="752.80" y="970.00" class="dimt" text-anchor="start" style="font-size:7.5px;">27.35  X RAIL TOP</text>
+<line x1="724.00" y1="958.24" x2="736.80" y2="958.24" class="ext" />
+<line x1="736.80" y1="958.24" x2="749.60" y2="956.00" class="ext" />
+<text x="752.80" y="959.00" class="dimt" text-anchor="start" style="font-size:7.5px;">32.35  X BLOCK TOP / X PLATE</text>
+<line x1="724.00" y1="948.08" x2="736.80" y2="948.08" class="ext" />
+<line x1="736.80" y1="948.08" x2="749.60" y2="945.00" class="ext" />
+<text x="752.80" y="948.00" class="dimt" text-anchor="start" style="font-size:7.5px;">38.70  X PLATE TOP</text>
+<line x1="724.00" y1="943.28" x2="736.80" y2="943.28" class="ext" />
+<line x1="736.80" y1="943.28" x2="749.60" y2="934.00" class="ext" />
+<text x="752.80" y="937.00" class="dimt" text-anchor="start" style="font-size:7.5px;">41.70  INSERT TOP (SLIDE)</text>
+<line x1="724.00" y1="941.20" x2="736.80" y2="941.20" class="ext" />
+<line x1="736.80" y1="941.20" x2="749.60" y2="923.00" class="ext" />
+<text x="752.80" y="926.00" class="dimt" text-anchor="start" style="font-size:7.5px;">43.0  SAMPLE PLANE</text>
+<line x1="487.20" y1="941.20" x2="487.20" y2="1010.00" class="dim" marker-start="url(#arrS)" marker-end="url(#arrE)"/>
+<text x="483.20" y="975.60" class="dimt" text-anchor="middle" style="font-size:8.5px;" transform="rotate(-90 483.2 975.6)">43.0</text>
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1115.00,660.97 1125.74,667.17 1115.00,673.37 1104.26,667.17" class="v" fill="rgba(255,255,255,0.133)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1104.26,729.17 1115.00,735.37 1115.00,673.37 1104.26,667.17" class="v" fill="rgba(255,255,255,0.070)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1125.74,729.17 1115.00,735.37 1115.00,673.37 1125.74,667.17" class="v" fill="rgba(255,255,255,0.039)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="996.87,729.17 1007.61,735.37 996.87,741.57 986.14,735.37" class="v" fill="rgba(255,255,255,0.133)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="986.14,797.37 996.87,803.57 996.87,741.57 986.14,735.37" class="v" fill="rgba(255,255,255,0.070)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1007.61,797.37 996.87,803.57 996.87,741.57 1007.61,735.37" class="v" fill="rgba(255,255,255,0.039)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1259.97,744.67 1270.71,750.87 1259.97,757.07 1249.23,750.87" class="v" fill="rgba(255,255,255,0.133)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1249.23,812.87 1259.97,819.07 1259.97,757.07 1249.23,750.87" class="v" fill="rgba(255,255,255,0.070)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1270.71,812.87 1259.97,819.07 1259.97,757.07 1270.71,750.87" class="v" fill="rgba(255,255,255,0.039)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1141.85,812.87 1152.59,819.07 1141.85,825.27 1131.11,819.07" class="v" fill="rgba(255,255,255,0.133)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1131.11,881.07 1141.85,887.27 1141.85,825.27 1131.11,819.07" class="v" fill="rgba(255,255,255,0.070)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1152.59,881.07 1141.85,887.27 1141.85,825.27 1152.59,819.07" class="v" fill="rgba(255,255,255,0.039)" />
+<path transform="translate(-204.40 63.00) scale(1.12)" d="M1108.79,777.10 A11.58,6.69 0 0 0 1131.95,777.10 L1131.95,747.77 A11.58,6.69 0 0 1 1108.79,747.77 Z" class="v" fill="rgba(255,255,255,0.070)" />
+<ellipse transform="translate(-204.40 63.00) scale(1.12)" cx="1120.37" cy="747.77" rx="11.58" ry="6.69" class="v" fill="rgba(255,255,255,0.133)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1120.37,729.17 1152.59,747.77 1120.37,766.37 1088.15,747.77" class="v" fill="rgba(255,255,255,0.133)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1088.15,757.07 1120.37,775.67 1120.37,766.37 1088.15,747.77" class="v" fill="rgba(255,255,255,0.070)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1152.59,757.07 1120.37,775.67 1120.37,766.37 1152.59,747.77" class="v" fill="rgba(255,255,255,0.039)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1115.00,650.00 1276.08,743.00 1141.85,820.50 980.77,727.50" class="v" fill="rgba(255,255,255,0.171)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="980.77,735.37 1141.85,828.37 1141.85,820.50 980.77,727.50" class="v" fill="rgba(255,255,255,0.090)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1276.08,750.87 1141.85,828.37 1141.85,820.50 1276.08,743.00" class="v" fill="rgba(255,255,255,0.050)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1179.43,513.60 1190.17,519.80 1168.69,532.20 1157.95,526.00" class="v" fill="rgba(255,255,255,0.171)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1157.95,712.00 1168.69,718.20 1168.69,532.20 1157.95,526.00" class="v" fill="rgba(255,255,255,0.090)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1190.17,705.80 1168.69,718.20 1168.69,532.20 1190.17,519.80" class="v" fill="rgba(255,255,255,0.050)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1166.55,528.48 1217.55,557.93 1212.72,560.72 1161.71,531.27" class="v" fill="rgba(255,255,255,0.133)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1161.71,587.07 1212.72,616.52 1212.72,560.72 1161.71,531.27" class="v" fill="rgba(255,255,255,0.070)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1217.55,613.73 1212.72,616.52 1212.72,560.72 1217.55,557.93" class="v" fill="rgba(255,255,255,0.039)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1160.10,537.16 1166.55,540.88 1162.25,543.36 1155.81,539.64" class="v" fill="rgba(255,255,255,0.190)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1155.81,632.64 1162.25,636.36 1162.25,543.36 1155.81,539.64" class="v" fill="rgba(255,255,255,0.100)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1166.55,633.88 1162.25,636.36 1162.25,543.36 1166.55,540.88" class="v" fill="rgba(255,255,255,0.055)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1111.78,698.98 1118.22,702.70 1064.53,733.70 1058.08,729.98" class="v" fill="rgba(255,255,255,0.190)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1058.08,734.94 1064.53,738.66 1064.53,733.70 1058.08,729.98" class="v" fill="rgba(255,255,255,0.100)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1118.22,707.66 1064.53,738.66 1064.53,733.70 1118.22,702.70" class="v" fill="rgba(255,255,255,0.055)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1176.21,736.18 1182.65,739.90 1128.96,770.90 1122.52,767.18" class="v" fill="rgba(255,255,255,0.190)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1122.52,772.14 1128.96,775.86 1128.96,770.90 1122.52,767.18" class="v" fill="rgba(255,255,255,0.100)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1182.65,744.86 1128.96,775.86 1128.96,770.90 1182.65,739.90" class="v" fill="rgba(255,255,255,0.055)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1093.25,701.92 1107.75,710.29 1083.05,724.55 1068.56,716.18" class="v" fill="rgba(255,255,255,0.152)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1068.56,722.38 1083.05,730.75 1083.05,724.55 1068.56,716.18" class="v" fill="rgba(255,255,255,0.080)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1107.75,716.50 1083.05,730.75 1083.05,724.55 1107.75,710.29" class="v" fill="rgba(255,255,255,0.044)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1157.69,739.12 1172.18,747.50 1147.48,761.75 1132.99,753.38" class="v" fill="rgba(255,255,255,0.152)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1132.99,759.59 1147.48,767.96 1147.48,761.75 1132.99,753.38" class="v" fill="rgba(255,255,255,0.080)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1172.18,753.69 1147.48,767.96 1147.48,761.75 1172.18,747.50" class="v" fill="rgba(255,255,255,0.044)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1106.95,686.05 1214.33,748.05 1155.27,782.15 1047.88,720.15" class="v" fill="rgba(255,255,255,0.171)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1047.88,724.09 1155.27,786.09 1155.27,782.15 1047.88,720.15" class="v" fill="rgba(255,255,255,0.090)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1214.33,751.99 1155.27,786.09 1155.27,782.15 1214.33,748.05" class="v" fill="rgba(255,255,255,0.050)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1107.48,683.88 1188.02,730.38 1181.58,734.10 1101.04,687.60" class="v" fill="rgba(255,255,255,0.190)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1101.04,692.56 1181.58,739.06 1181.58,734.10 1101.04,687.60" class="v" fill="rgba(255,255,255,0.100)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1188.02,735.34 1181.58,739.06 1181.58,734.10 1188.02,730.38" class="v" fill="rgba(255,255,255,0.055)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1059.16,711.78 1139.70,758.28 1133.26,762.00 1052.72,715.50" class="v" fill="rgba(255,255,255,0.190)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1052.72,720.46 1133.26,766.96 1133.26,762.00 1052.72,715.50" class="v" fill="rgba(255,255,255,0.100)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1139.70,763.24 1133.26,766.96 1133.26,762.00 1139.70,758.28" class="v" fill="rgba(255,255,255,0.055)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1106.95,670.96 1198.23,723.66 1133.79,760.86 1042.51,708.16" class="v" fill="rgba(255,255,255,0.171)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1042.51,712.09 1133.79,764.79 1133.79,760.86 1042.51,708.16" class="v" fill="rgba(255,255,255,0.090)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1198.23,727.59 1133.79,764.79 1133.79,760.86 1198.23,723.66" class="v" fill="rgba(255,255,255,0.050)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1106.95,675.30 1187.49,721.80 1133.79,752.80 1053.25,706.30" class="v" fill="rgba(255,255,255,0.152)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1053.25,708.16 1133.79,754.66 1133.79,752.80 1053.25,706.30" class="v" fill="rgba(255,255,255,0.080)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1187.49,723.66 1133.79,754.66 1133.79,752.80 1187.49,721.80" class="v" fill="rgba(255,255,255,0.044)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1106.95,697.86 1147.22,721.11 1133.79,728.86 1093.52,705.61" class="v" fill="rgba(255,255,255,0.095)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1093.52,706.30 1133.79,729.55 1133.79,728.86 1093.52,705.61" class="v" fill="rgba(255,255,255,0.050)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1147.22,721.80 1133.79,729.55 1133.79,728.86 1147.22,721.11" class="v" fill="rgba(255,255,255,0.028)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1059.70,729.67 1140.24,776.17 1135.94,778.65 1055.40,732.15" class="v" fill="rgba(255,255,255,0.152)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1055.40,737.11 1135.94,783.61 1135.94,778.65 1055.40,732.15" class="v" fill="rgba(255,255,255,0.080)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1140.24,781.13 1135.94,783.61 1135.94,778.65 1140.24,776.17" class="v" fill="rgba(255,255,255,0.044)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1157.95,760.36 1161.18,762.22 1134.33,777.72 1131.11,775.86" class="v" fill="rgba(255,255,255,0.152)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1131.11,806.86 1134.33,808.72 1134.33,777.72 1131.11,775.86" class="v" fill="rgba(255,255,255,0.080)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1161.18,793.22 1134.33,808.72 1134.33,777.72 1161.18,762.22" class="v" fill="rgba(255,255,255,0.044)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1159.03,765.94 1169.77,772.14 1147.22,785.16 1136.48,778.96" class="v" fill="rgba(255,255,255,0.171)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1136.48,805.00 1147.22,811.20 1147.22,785.16 1136.48,778.96" class="v" fill="rgba(255,255,255,0.090)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1169.77,798.18 1147.22,811.20 1147.22,785.16 1169.77,772.14" class="v" fill="rgba(255,255,255,0.050)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="996.87,714.48 1023.72,729.98 1020.50,731.84 993.65,716.34" class="v" fill="rgba(255,255,255,0.152)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="993.65,760.98 1020.50,776.48 1020.50,731.84 993.65,716.34" class="v" fill="rgba(255,255,255,0.080)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1023.72,774.62 1020.50,776.48 1020.50,731.84 1023.72,729.98" class="v" fill="rgba(255,255,255,0.044)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="995.80,717.58 1018.35,730.60 1007.61,736.80 985.06,723.78" class="v" fill="rgba(255,255,255,0.171)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="985.06,749.82 1007.61,762.84 1007.61,736.80 985.06,723.78" class="v" fill="rgba(255,255,255,0.090)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1018.35,756.64 1007.61,762.84 1007.61,736.80 1018.35,730.60" class="v" fill="rgba(255,255,255,0.050)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1151.78,587.88 1166.28,596.25 1163.59,597.80 1149.10,589.43" class="v" fill="rgba(255,255,255,0.190)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1149.10,617.57 1163.59,625.94 1163.59,597.80 1149.10,589.43" class="v" fill="rgba(255,255,255,0.100)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1166.28,624.39 1163.59,625.94 1163.59,597.80 1166.28,596.25" class="v" fill="rgba(255,255,255,0.055)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1140.24,582.64 1172.45,601.24 1169.04,603.21 1136.83,584.61" class="v" fill="rgba(255,255,255,0.190)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1136.83,616.10 1169.04,634.70 1169.04,603.21 1136.83,584.61" class="v" fill="rgba(255,255,255,0.100)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1172.45,632.73 1169.04,634.70 1169.04,603.21 1172.45,601.24" class="v" fill="rgba(255,255,255,0.055)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1140.24,614.13 1172.45,632.73 1113.39,666.83 1081.17,648.23" class="v" fill="rgba(255,255,255,0.190)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1081.17,652.17 1113.39,670.77 1113.39,666.83 1081.17,648.23" class="v" fill="rgba(255,255,255,0.100)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1172.45,636.67 1113.39,670.77 1113.39,666.83 1172.45,632.73" class="v" fill="rgba(255,255,255,0.055)" />
+<path transform="translate(-204.40 63.00) scale(1.12)" d="M1143.64,664.57 A3.04,1.75 0 0 0 1149.72,664.57 L1149.72,540.57 A3.04,1.75 0 0 1 1143.64,540.57 Z" class="v" fill="rgba(255,255,255,0.120)" />
+<ellipse transform="translate(-204.40 63.00) scale(1.12)" cx="1146.68" cy="540.57" rx="3.04" ry="1.75" class="v" fill="rgba(255,255,255,0.228)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1115.00,613.20 1141.85,628.70 1125.74,638.00 1098.89,622.50" class="v" fill="rgba(255,255,255,0.190)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1098.89,641.10 1125.74,656.60 1125.74,638.00 1098.89,622.50" class="v" fill="rgba(255,255,255,0.100)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1141.85,647.30 1125.74,656.60 1125.74,638.00 1141.85,628.70" class="v" fill="rgba(255,255,255,0.055)" />
+<path transform="translate(-204.40 63.00) scale(1.12)" d="M1111.26,702.70 A9.11,5.26 0 0 0 1129.48,702.70 L1129.48,685.34 A9.11,5.26 0 0 1 1111.26,685.34 Z" class="v" fill="rgba(255,255,255,0.090)" />
+<ellipse transform="translate(-204.40 63.00) scale(1.12)" cx="1120.37" cy="685.34" rx="9.11" ry="5.26" class="v" fill="rgba(255,255,255,0.171)" />
+<path transform="translate(-204.40 63.00) scale(1.12)" d="M1116.57,706.67 A3.80,2.19 0 0 0 1124.17,706.67 L1124.17,702.70 A3.80,2.19 0 0 1 1116.57,702.70 Z" class="v" fill="rgba(255,255,255,0.090)" />
+<ellipse transform="translate(-204.40 63.00) scale(1.12)" cx="1120.37" cy="702.70" rx="3.80" ry="2.19" class="v" fill="rgba(255,255,255,0.171)" />
+<path transform="translate(-204.40 63.00) scale(1.12)" d="M1108.79,685.34 A11.58,6.69 0 0 0 1131.95,685.34 L1131.95,598.17 A11.58,6.69 0 0 1 1108.79,598.17 Z" class="v" fill="rgba(255,255,255,0.100)" />
+<ellipse transform="translate(-204.40 63.00) scale(1.12)" cx="1120.37" cy="598.17" rx="11.58" ry="6.69" class="v" fill="rgba(255,255,255,0.190)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1120.37,574.98 1140.77,586.76 1120.37,598.54 1099.97,586.76" class="v" fill="rgba(255,255,255,0.190)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1099.97,598.17 1120.37,609.95 1120.37,598.54 1099.97,586.76" class="v" fill="rgba(255,255,255,0.100)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1140.77,598.17 1120.37,609.95 1120.37,598.54 1140.77,586.76" class="v" fill="rgba(255,255,255,0.055)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1174.06,501.20 1200.91,516.70 1147.22,547.70 1120.37,532.20" class="v" fill="rgba(255,255,255,0.190)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1120.37,538.40 1147.22,553.90 1147.22,547.70 1120.37,532.20" class="v" fill="rgba(255,255,255,0.100)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1200.91,522.90 1147.22,553.90 1147.22,547.70 1200.91,516.70" class="v" fill="rgba(255,255,255,0.055)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1146.68,507.09 1169.23,520.11 1146.68,533.13 1124.13,520.11" class="v" fill="rgba(255,255,255,0.190)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1124.13,532.51 1146.68,545.53 1146.68,533.13 1124.13,520.11" class="v" fill="rgba(255,255,255,0.100)" />
+<polygon transform="translate(-204.40 63.00) scale(1.12)" points="1169.23,532.51 1146.68,545.53 1146.68,533.13 1169.23,520.11" class="v" fill="rgba(255,255,255,0.055)" />
+<line transform="translate(-204.40 63.00) scale(1.12)" x1="1120.37" y1="783.30" x2="1120.37" y2="575.60" class="axis" />
+<text transform="translate(-204.40 63.00) scale(1.12)" x="1095.00" y="907.00" class="vt" text-anchor="middle" style="font-size:11px;font-weight:bold;letter-spacing:1.2px;">ISOMETRIC VIEW</text>
+<rect x="1432.00" y="100.00" width="220.00" height="330.00" class="tb" fill="rgba(255,255,255,0.03)" />
+<text x="1542.00" y="116.00" class="t" text-anchor="middle" style="font-size:10px;font-weight:bold;letter-spacing:1.5px;">KEY DATA</text>
+<line x1="1432.00" y1="124.00" x2="1652.00" y2="124.00" class="tb" />
+<text x="1439.00" y="140.00" class="sub" text-anchor="start" style="font-size:7.0px;font-weight:bold;">OBJECTIVE</text>
+<text x="1520.00" y="140.00" class="lab" text-anchor="start" style="font-size:7.3px;">10×/0.25 plan, ∞/180, RMS</text>
+<line x1="1436.00" y1="145.00" x2="1648.00" y2="145.00" class="thin" stroke-opacity="0.35"/>
+<text x="1439.00" y="156.50" class="sub" text-anchor="start" style="font-size:7.0px;font-weight:bold;">TUBE LENS</text>
+<text x="1520.00" y="156.50" class="lab" text-anchor="start" style="font-size:7.3px;">AC254-100-A-ML f=100.1</text>
+<line x1="1436.00" y1="161.50" x2="1648.00" y2="161.50" class="thin" stroke-opacity="0.35"/>
+<text x="1439.00" y="173.00" class="sub" text-anchor="start" style="font-size:7.0px;font-weight:bold;">MAGNIFICATION</text>
+<text x="1520.00" y="173.00" class="lab" text-anchor="start" style="font-size:7.3px;">5.56× at sensor</text>
+<line x1="1436.00" y1="178.00" x2="1648.00" y2="178.00" class="thin" stroke-opacity="0.35"/>
+<text x="1439.00" y="189.50" class="sub" text-anchor="start" style="font-size:7.0px;font-weight:bold;">SENSOR</text>
+<text x="1520.00" y="189.50" class="lab" text-anchor="start" style="font-size:7.3px;">IMX477, 1.55 µm, 6.29×4.71</text>
+<line x1="1436.00" y1="194.50" x2="1648.00" y2="194.50" class="thin" stroke-opacity="0.35"/>
+<text x="1439.00" y="206.00" class="sub" text-anchor="start" style="font-size:7.0px;font-weight:bold;">FIELD OF VIEW</text>
+<text x="1520.00" y="206.00" class="lab" text-anchor="start" style="font-size:7.3px;">1.13 × 0.85 mm (10×)</text>
+<line x1="1436.00" y1="211.00" x2="1648.00" y2="211.00" class="thin" stroke-opacity="0.35"/>
+<text x="1439.00" y="222.50" class="sub" text-anchor="start" style="font-size:7.0px;font-weight:bold;">SAMPLING</text>
+<text x="1520.00" y="222.50" class="lab" text-anchor="start" style="font-size:7.3px;">0.279 µm/px, 2.4× Nyquist</text>
+<line x1="1436.00" y1="227.50" x2="1648.00" y2="227.50" class="thin" stroke-opacity="0.35"/>
+<text x="1439.00" y="239.00" class="sub" text-anchor="start" style="font-size:7.0px;font-weight:bold;">RESOLUTION</text>
+<text x="1520.00" y="239.00" class="lab" text-anchor="start" style="font-size:7.3px;">1.34 µm Rayleigh (10×)</text>
+<line x1="1436.00" y1="244.00" x2="1648.00" y2="244.00" class="thin" stroke-opacity="0.35"/>
+<text x="1439.00" y="255.50" class="sub" text-anchor="start" style="font-size:7.0px;font-weight:bold;">DEPTH OF FIELD</text>
+<text x="1520.00" y="255.50" class="lab" text-anchor="start" style="font-size:7.3px;">9.9 µm (10×)</text>
+<line x1="1436.00" y1="260.50" x2="1648.00" y2="260.50" class="thin" stroke-opacity="0.35"/>
+<text x="1439.00" y="272.00" class="sub" text-anchor="start" style="font-size:7.0px;font-weight:bold;">ILLUMINATION</text>
+<text x="1520.00" y="272.00" class="lab" text-anchor="start" style="font-size:7.3px;">3 W LED, 2 aspheres, diffuser</text>
+<line x1="1436.00" y1="277.00" x2="1648.00" y2="277.00" class="thin" stroke-opacity="0.35"/>
+<text x="1439.00" y="288.50" class="sub" text-anchor="start" style="font-size:7.0px;font-weight:bold;">CONDENSER NA</text>
+<text x="1520.00" y="288.50" class="lab" text-anchor="start" style="font-size:7.3px;">0.10–0.40 (discs)</text>
+<line x1="1436.00" y1="293.50" x2="1648.00" y2="293.50" class="thin" stroke-opacity="0.35"/>
+<text x="1439.00" y="305.00" class="sub" text-anchor="start" style="font-size:7.0px;font-weight:bold;">STAGE TRAVEL</text>
+<text x="1520.00" y="305.00" class="lab" text-anchor="start" style="font-size:7.3px;">X 50 · Y 25 · Z 100 mm</text>
+<line x1="1436.00" y1="310.00" x2="1648.00" y2="310.00" class="thin" stroke-opacity="0.35"/>
+<text x="1439.00" y="321.50" class="sub" text-anchor="start" style="font-size:7.0px;font-weight:bold;">STAGE RESOLUTION</text>
+<text x="1520.00" y="321.50" class="lab" text-anchor="start" style="font-size:7.3px;">0.3125 µm/µstep</text>
+<line x1="1436.00" y1="326.50" x2="1648.00" y2="326.50" class="thin" stroke-opacity="0.35"/>
+<text x="1439.00" y="338.00" class="sub" text-anchor="start" style="font-size:7.0px;font-weight:bold;">DRIVES</text>
+<text x="1520.00" y="338.00" class="lab" text-anchor="start" style="font-size:7.3px;">Tr8×2 + NEMA17 0.9°, 1/16</text>
+<line x1="1436.00" y1="343.00" x2="1648.00" y2="343.00" class="thin" stroke-opacity="0.35"/>
+<text x="1439.00" y="354.50" class="sub" text-anchor="start" style="font-size:7.0px;font-weight:bold;">LINEAR GUIDES</text>
+<text x="1520.00" y="354.50" class="lab" text-anchor="start" style="font-size:7.3px;">MGN12H ×5</text>
+<line x1="1436.00" y1="359.50" x2="1648.00" y2="359.50" class="thin" stroke-opacity="0.35"/>
+<text x="1439.00" y="371.00" class="sub" text-anchor="start" style="font-size:7.0px;font-weight:bold;">CONTROLLER</text>
+<text x="1520.00" y="371.00" class="lab" text-anchor="start" style="font-size:7.3px;">Pico 2 · 3×TMC2209 · LDD-500L</text>
+<line x1="1436.00" y1="376.00" x2="1648.00" y2="376.00" class="thin" stroke-opacity="0.35"/>
+<text x="1439.00" y="387.50" class="sub" text-anchor="start" style="font-size:7.0px;font-weight:bold;">FIRMWARE / HOST</text>
+<text x="1520.00" y="387.50" class="lab" text-anchor="start" style="font-size:7.3px;">grblHAL · Raspberry Pi 5</text>
+<line x1="1436.00" y1="392.50" x2="1648.00" y2="392.50" class="thin" stroke-opacity="0.35"/>
+<text x="1439.00" y="404.00" class="sub" text-anchor="start" style="font-size:7.0px;font-weight:bold;">FRAME</text>
+<text x="1520.00" y="404.00" class="lab" text-anchor="start" style="font-size:7.3px;">MIC-6 300×250×12.7, 2040</text>
+<line x1="1436.00" y1="409.00" x2="1648.00" y2="409.00" class="thin" stroke-opacity="0.35"/>
+<text x="1439.00" y="420.50" class="sub" text-anchor="start" style="font-size:7.0px;font-weight:bold;">MASS / ENVELOPE</text>
+<text x="1520.00" y="420.50" class="lab" text-anchor="start" style="font-size:7.3px;">≈5 kg · 300×276×443</text>
+</svg>
